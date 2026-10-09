@@ -1,0 +1,11 @@
+Program mini inventaris barang pakai konsep **OOP** sama **HashMap** di Java.
+
+## Isi Program
+- **`Produk.java`**: Class buat bikin objek produk (isi atribut `kodeProduk`, `nama`, `stok`, constructor, getter/setter, sama method buat nampilkan info).
+- **`MainInventaris.java`**: Class utama buat ngelola data barang pakai `HashMap<String, Produk>`.
+
+## Cara Kerja Program
+1. **Simpan Data**: Masukin data produk ke `HashMap` pakai kode produk sebagai kuncinya (key).
+2. **Tampilkan & Hitung Total**: Pakai perulangan *For-Each* buat nampilin semua barang sekalian ngitung total stoknya.
+3. **Ubah Stok**: Ngubah stok barang tertentu pakai `.get(kode).setStok()`.
+4. **Hapus Barang**: Ngalokasiin/ngapus barang pakai `.remove(kode)`.
